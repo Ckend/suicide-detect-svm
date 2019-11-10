@@ -15,7 +15,7 @@
 
 每条微博按行存储在txt文件里。训练集中，正常微博命名为normal.txt, 自杀倾向微博命名为die.txt。测试集存放在后缀为_test.txt的文件中：
 
-![Python 短文本自动识别个体是否有自杀倾向](https://cdn.learnku.com/uploads/images/201911/10/50651/NwDOvffOF6.png!/fw/1240)
+![Python 短文本自动识别个体是否有自杀倾向](https://pythondict.com/wp-content/uploads/2019/11/2019111013222864.png)
 
 此外，接下来我们会使用到一个机器学习工具包叫scikit-learn(sklearn)，其打包好了许多机器学习模型和预处理的方法，方便我们构建分类器，在CMD/Terminal输入以下命令安装：
 
@@ -98,7 +98,7 @@ print(classification_report(y_test, preds))
 
 结果：
 
-![Python 短文本自动识别个体是否有自杀倾向](https://cdn.learnku.com/uploads/images/201911/10/50651/Ln3tRWfzVV.png!/fw/1240)
+![Python 短文本自动识别个体是否有自杀倾向](https://pythondict.com/wp-content/uploads/2019/11/2019111013521068.png)
 
 对自杀倾向微博的分类精确率为100%，但是查全率不够，它只找到了50条里的60%，也就是30条自杀倾向微博。
 
@@ -110,4 +110,4 @@ print(classification_report(y_test, preds))
 
 如果你喜欢今天的Python 教程，请持续关注[Python实用宝典](https://pythondict.com)，如果对你有帮助，麻烦在下面点一个赞/在看哦有任何问题都可以在下方留言区留言，我们会耐心解答的！
 
-![Python 短文本自动识别个体是否有自杀倾向](https://cdn.learnku.com/uploads/images/201911/10/50651/VDdps9eMEP.png!/fw/1240)
+![Python 短文本自动识别个体是否有自杀倾向](https://pythondict.com/wp-content/uploads/2019/08/2019080218203145.jpg)
